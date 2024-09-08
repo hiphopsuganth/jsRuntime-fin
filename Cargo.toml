@@ -1,0 +1,9 @@
+[package]
+name = "jsRuntime-fin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deno_core = "0.307.0" 
+v8 = "0.106.0" 
+tokio = { version = "1", features = ["full"] }
